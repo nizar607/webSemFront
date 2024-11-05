@@ -115,7 +115,7 @@ export class UsersComponent {
 
   confirmDelete(user: User) {
     if (confirm(`Are you sure you want to delete ${user.id}?`)) {
-      this.userService.deleteUser(user.id).subscribe(
+      this.userService.deleteUser(user.username).subscribe(
         success => {
           if (success) {
             this.loadUsers();
