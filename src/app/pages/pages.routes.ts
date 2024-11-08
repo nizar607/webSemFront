@@ -39,7 +39,7 @@ export const PagesRoutes: Routes = [
   },
 
   {
-    path: '',
+    path: 'dashboard',
     component: StarterComponent,
     data: {
       title: 'Starter',

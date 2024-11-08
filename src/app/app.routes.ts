@@ -9,7 +9,7 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/authentication/login',
+        redirectTo: '/dashboard',
         pathMatch: 'full',
       },
       {

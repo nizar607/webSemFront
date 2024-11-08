@@ -62,28 +62,7 @@ export const navItems: NavItem[] = [
     iconName: 'layout-dashboard',
     bgcolor: 'primary',
     route: '/dashboard',
-  },
-  {
-    displayName: 'Login',
-    iconName: 'lock',
-    bgcolor: 'accent',
-    route: '/authentication/login',
-  },
-  {
-    displayName: 'Register',
-    iconName: 'user-plus',
-    bgcolor: 'warning',
-    route: '/authentication/register',
-  },
-  {
-    navCap: 'Extra',
-  },
-  {
-    displayName: 'Icons',
-    iconName: 'mood-smile',
-    bgcolor: 'success',
-    route: '/extra/icons',
-  },
+  }
 
   
 
